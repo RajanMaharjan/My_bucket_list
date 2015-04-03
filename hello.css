@@ -32,6 +32,17 @@ header {
     background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);
     padding: 20px 15px 15px 15px;
     position: relative;
+
+}
+
+footer{
+
+    background: #d2edf4;
+    background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);
+    padding: 20px 15px 15px 15px;
+    position: relative;
+    text-align: center;
+;
 }
 
 #login-buttons {
@@ -39,11 +50,12 @@ header {
 }
 
 h1 {
-    font-size: 1.5em;
-    margin: 0;
-    margin-bottom: 10px;
-    display: inline-block;
-    margin-right: 1em;
+    background: #d2edf4;
+    background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);
+    padding: 1px 1px 1px 1px;
+    position: relative;
+    text-align: center;
+
 }
 
 form {
@@ -56,7 +68,7 @@ form {
     box-sizing: border-box;
     padding: 10px 0;
     background: transparent;
-    border: none;
+    border:groove;
     width: 100%;
     padding-right: 80px;
     font-size: 1em;

@@ -1,12 +1,12 @@
 <!-- simple-todos.html -->
 <head>
-    <title>Todo List</title>
+    <title>My Bucket List</title>
 </head>
 
 <body>
 <div class="container">
     <header>
-        <h1>Todo List</h1>
+        <h1>My Bucket List</h1>
         <!-- add a form below the h1 -->
         <form class="new-task">
             <input type="text" name="text" placeholder="Type to add new tasks" />
@@ -19,8 +19,17 @@
         {{/each}}
     </ol>
 </div>
+
+<footer>Copyright @ Rajan Maharjan. All Right Reserved.</footer>
 </body>
 
+<!-- replace the existing task template with this code -->
 <template name="task">
-    <li>{{text}}</li>
+    <li class="{{#if checked}}checked{{/if}}">
+        <button class="delete">&times;</button>
+
+        <input type="checkbox" checked="{{checked}}" class="toggle-checked"  title="checkbok"/>
+
+        <span class="text">{{text}}</span>
+    </li>
 </template>
