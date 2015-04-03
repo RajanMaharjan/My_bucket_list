@@ -1,4 +1,4 @@
-<!-- simple-todos.html -->
+<!-- my_bucket_list.html -->
 <head>
     <title>My Bucket List</title>
 </head>
@@ -7,10 +7,24 @@
 <div class="container">
     <header>
         <h1>My Bucket List</h1>
-        <!-- add a form below the h1 -->
-        <form class="new-task">
-            <input type="text" name="text" placeholder="Type to add new tasks" />
-        </form>
+        <h3>{{> loginButtons}}</h3>
+        <!-- add a form below the h1
+        #if block helper to only show the form when there is a logged in user:-->
+        {{#if currentUser}}
+            <form class="new-task">
+                <input type="text" name="text" placeholder="Type to add new tasks" />
+            </form>
+        {{/if}}
+
+        <h4>( {{incompleteCount}} ) - Incomplete Bucket List. </h4>
+
+        <!-- add the checkbox to <body> right below the h1 -->
+        <label class="hide-completed">
+            <input type="checkbox" checked="{{hideCompleted}}" />
+            Hide Completed Tasks
+        </label>
+        <br>
+
     </header>
 
     <ol>
@@ -27,8 +41,7 @@
 <template name="task">
     <li class="{{#if checked}}checked{{/if}}">
         <button class="delete">&times;</button>
-
         <input type="checkbox" checked="{{checked}}" class="toggle-checked"  title="checkbok"/>
-        <span class="text">{{text}}</span>
+        <span class="text"><strong>{{username}}</strong> - {{text}}</span>
     </li>
 </template>

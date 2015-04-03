@@ -21,6 +21,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/reactive-var/1.0.5/web.browser/packages/reactive-var.js" />
         <item url="file://$USER_HOME$/.meteor/packages/logging/1.0.7/web.browser/packages/logging.js" />
         <item url="file://$USER_HOME$/.meteor/packages/autopublish/1.0.3/web.browser/packages/autopublish.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/blaze/2.1.2/web.browser/packages/blaze.js" />
         <item url="file://$USER_HOME$/.meteor/packages/underscore/1.0.3/web.browser/packages/underscore.js" />
         <item url="file://$USER_HOME$/.meteor/packages/http/1.1.0/web.browser/packages/http.js" />
         <item url="file://$USER_HOME$/.meteor/packages/callback-hook/1.0.3/web.browser/packages/callback-hook.js" />
@@ -44,7 +45,6 @@
         <item url="file://$USER_HOME$/.meteor/packages/mobile-status-bar/1.0.3/web.browser/packages/mobile-status-bar.js" />
         <item url="file://$USER_HOME$/.meteor/packages/session/1.1.0/web.browser/packages/session.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ejson/1.0.6/web.browser/packages/ejson.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/blaze/2.1.1/web.browser/packages/blaze.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
@@ -67,6 +67,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/reactive-var/1.0.5/web.browser/packages/reactive-var.js" />
       <root url="file://$USER_HOME$/.meteor/packages/logging/1.0.7/web.browser/packages/logging.js" />
       <root url="file://$USER_HOME$/.meteor/packages/autopublish/1.0.3/web.browser/packages/autopublish.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/blaze/2.1.2/web.browser/packages/blaze.js" />
       <root url="file://$USER_HOME$/.meteor/packages/underscore/1.0.3/web.browser/packages/underscore.js" />
       <root url="file://$USER_HOME$/.meteor/packages/http/1.1.0/web.browser/packages/http.js" />
       <root url="file://$USER_HOME$/.meteor/packages/callback-hook/1.0.3/web.browser/packages/callback-hook.js" />
@@ -90,7 +91,6 @@
       <root url="file://$USER_HOME$/.meteor/packages/mobile-status-bar/1.0.3/web.browser/packages/mobile-status-bar.js" />
       <root url="file://$USER_HOME$/.meteor/packages/session/1.1.0/web.browser/packages/session.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ejson/1.0.6/web.browser/packages/ejson.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/blaze/2.1.1/web.browser/packages/blaze.js" />
     </CLASSES>
     <SOURCES />
   </library>

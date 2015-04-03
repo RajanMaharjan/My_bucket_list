@@ -14,7 +14,6 @@
         <item url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.6/web.cordova/packages/spacebars-compiler.js" />
         <item url="file://$USER_HOME$/.meteor/packages/callback-hook/1.0.3/web.cordova/packages/callback-hook.js" />
         <item url="file://$USER_HOME$/.meteor/packages/retry/1.0.3/web.cordova/packages/retry.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/blaze/2.1.1/web.cordova/packages/blaze.js" />
         <item url="file://$USER_HOME$/.meteor/packages/insecure/1.0.3/web.cordova/packages/insecure.js" />
         <item url="file://$USER_HOME$/.meteor/packages/reactive-dict/1.1.0/web.cordova/packages/reactive-dict.js" />
         <item url="file://$USER_HOME$/.meteor/packages/autoupdate/1.2.1/web.cordova/packages/autoupdate.js" />
@@ -35,6 +34,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/reactive-var/1.0.5/web.cordova/packages/reactive-var.js" />
         <item url="file://$USER_HOME$/.meteor/packages/base64/1.0.3/web.cordova/packages/base64.js" />
         <item url="file://$USER_HOME$/.meteor/packages/http/1.1.0/web.cordova/packages/http.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/blaze/2.1.2/web.cordova/packages/blaze.js" />
         <item url="file://$USER_HOME$/.meteor/packages/webapp-hashing/1.0.3/web.cordova/packages/webapp-hashing.js" />
         <item url="file://$USER_HOME$/.meteor/packages/geojson-utils/1.0.3/web.cordova/packages/geojson-utils.js" />
         <item url="file://$USER_HOME$/.meteor/packages/observe-sequence/1.0.6/web.cordova/packages/observe-sequence.js" />
@@ -60,7 +60,6 @@
       <root url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.6/web.cordova/packages/spacebars-compiler.js" />
       <root url="file://$USER_HOME$/.meteor/packages/callback-hook/1.0.3/web.cordova/packages/callback-hook.js" />
       <root url="file://$USER_HOME$/.meteor/packages/retry/1.0.3/web.cordova/packages/retry.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/blaze/2.1.1/web.cordova/packages/blaze.js" />
       <root url="file://$USER_HOME$/.meteor/packages/insecure/1.0.3/web.cordova/packages/insecure.js" />
       <root url="file://$USER_HOME$/.meteor/packages/reactive-dict/1.1.0/web.cordova/packages/reactive-dict.js" />
       <root url="file://$USER_HOME$/.meteor/packages/autoupdate/1.2.1/web.cordova/packages/autoupdate.js" />
@@ -81,6 +80,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/reactive-var/1.0.5/web.cordova/packages/reactive-var.js" />
       <root url="file://$USER_HOME$/.meteor/packages/base64/1.0.3/web.cordova/packages/base64.js" />
       <root url="file://$USER_HOME$/.meteor/packages/http/1.1.0/web.cordova/packages/http.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/blaze/2.1.2/web.cordova/packages/blaze.js" />
       <root url="file://$USER_HOME$/.meteor/packages/webapp-hashing/1.0.3/web.cordova/packages/webapp-hashing.js" />
       <root url="file://$USER_HOME$/.meteor/packages/geojson-utils/1.0.3/web.cordova/packages/geojson-utils.js" />
       <root url="file://$USER_HOME$/.meteor/packages/observe-sequence/1.0.6/web.cordova/packages/observe-sequence.js" />
